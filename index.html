@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Unit Converter</h1>
+
+    <!-- Tabs / category buttons -->
+    <nav aria-label="Converter categories">
+      <button type="button" id="tab-length" aria-current="page">Length</button>
+      <button type="button" id="tab-weight">Weight</button>
+      <button type="button" id="tab-temperature">Temperature</button>
+    </nav>
+    <form id="converter">
+        <div>
+            <label for="value">Enter the length to convert</label><br />
+            <input type="number" id="value" name="value" placeholder="e.g., 12" step="any" />
+          </div>
+  
+          <div>
+            <label for="from-unit">Unit to Convert from</label><br />
+            <input type="text" id="from-unit" name="fromUnit" placeholder="e.g., cm" />
+          </div>
+  
+          <div>
+            <label for="to-unit">Unit to Convert to</label><br />
+            <input type="text" id="to-unit" name="toUnit" placeholder="e.g., inches" />
+          </div>
+  
+          <div>
+            <button type="submit" id="convert-btn">Convert</button>
+          </div>
+    </form>
+       
+
+</body>
+</html>
