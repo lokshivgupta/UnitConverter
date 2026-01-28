@@ -21,6 +21,7 @@ const lengthInMeters = {
     m: 1,
     km: 1000,
     inch: 0.0254,
+    inches: 0.0254,
     ft: 0.3048,
     yard: 0.9144,
     mile: 1609.34
